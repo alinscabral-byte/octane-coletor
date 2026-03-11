@@ -12,8 +12,7 @@ SUPABASE_URL    = os.environ.get("SUPABASE_URL", "https://wnieuivunvtnldkjfkxy.s
 SUPABASE_KEY    = os.environ.get("SUPABASE_KEY", "")  # service_role key do Supabase
 
 # URL da API da Sefaz AL
-SEFAZ_URL = "http://api.sefaz.al.gov.br/sfz-economiza-alagoas-api/api/public/combustivel/pesquisa"
-
+SEFAZ_URL = "https://api.sefaz.al.gov.br/sfz-economiza-alagoas-api/api/public/combustivel/pesquisa"
 # Combustíveis monitorados
 COMBUSTIVEIS = {
     1: "gasolina_comum",
